@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thameem Maligai and Stationary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Store Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#OurProducts">Our Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="flex">
+        <h1>THAMEEM MALIGAI AND STATIONERY WELCOMES YOU</h1>
+        <p>Emphasizes the Daily Essentials and Delightful Shopping Experience</p>
+        <button onclick="showPopup()">Buy Our Products</button>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Thameem Maligai, your trusted destination for fresh and quality groceries! 
+            We are committed to bringing you the finest selection of daily essentials, all at great prices.</p>
+        </section>
+
+        <!-- Our Products Section -->
+        <section id="OurProducts">
+            <h2>Our Products</h2>
+
+            <!-- Grocery Items -->
+            <div class="category">
+                <h3 class="category-title">Grocery Items</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="rice.png" alt="Rice">
+                        <h4>Rice & Wheat Flour</h4>
+                    </div>
+                    <div class="product">
+                        <img src="sugar.png" alt="Sugar">
+                        <h4>Sugar & Salt</h4>
+                    </div>
+                    <div class="product">
+                        <img src="tea.png" alt="Tea">
+                        <h4>Tea & Coffee</h4>
+                    </div>
+                    <div class="product">
+                        <img src="biscuits.png" alt="Biscuits">
+                        <h4>Biscuits & Snacks</h4>
+                    </div>
+                    <div class="product">
+                        <img src="milk.png" alt="Milk">
+                        <h4>Dairy Products</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stationery Items -->
+            <div class="category">
+                <h3 class="category-title">Stationery Items</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="notebook.png" alt="Notebook">
+                        <h4>Notebooks & Registers</h4>
+                    </div>
+                    <div class="product">
+                        <img src="pen.png" alt="Pen">
+                        <h4>Pens & Pencils</h4>
+                    </div>
+                    <div class="product">
+                        <img src="geometry-box.png" alt="Geometry Box">
+                        <h4>Geometry Box</h4>
+                    </div>
+                    <div class="product">
+                        <img src="paint.png" alt="Paint">
+                        <h4>Paints & Brushes</h4>
+                    </div>
+                    <div class="product">
+                        <img src="glue.png" alt="Glue">
+                        <h4>Glue & Adhesives</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><strong>K.A. Mansoor Ali</strong></p>
+            <p>Phone: 9944749393, 8668080452</p>
+            <p>Address: 103.D,Sellumeeran Nagar,Pallapatti-639 207</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Thameem Maligai. All Rights Reserved.</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="hidePopup()">&times;</span>
+            <h2>Shop with Us</h2>
+            <p>If you want to buy our products, contact us through the given phone number.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
